@@ -1,0 +1,15 @@
+The files 0.pgm to 9.pgm in this directory are images from the test set of
+the MNIST database of handwritten digits, by Yann LeCun, Corinna Cortes and
+Christopher J. C. Burges. MNIST was built from NIST Special Database 3 and
+Special Database 1.
+Source: http://yann.lecun.com/exdb/mnist/
+
+Each file is the first image of its digit in the MNIST test set (test indices
+3, 2, 1, 18, 4, 8, 11, 0, 61 and 7 for digits 0 to 9). The only change is the
+conversion from the MNIST IDX format to binary PGM (P5) by export.py.
+
+These images are licensed under the Creative Commons Attribution-Share Alike
+3.0 license (CC BY-SA 3.0):
+https://creativecommons.org/licenses/by-sa/3.0/
+
+The MIT license in the repository root covers the code only, not these images.
