@@ -1,0 +1,29 @@
+name: Bug report
+description: A wrong prediction, a build failure, or a file handled differently from the README.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: input
+    id: command
+    attributes:
+      label: Command you ran
+      placeholder: ./tinydigit image.pgm
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Compiler and platform
+      description: "`cc --version`, OS and CPU."
+    validations:
+      required: true
+  - type: textarea
+    id: file
+    attributes:
+      label: The input file (optional)
+      description: Attach the PGM if you can. If it crashes the program, please report it privately instead.
